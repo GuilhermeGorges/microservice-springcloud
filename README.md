@@ -13,6 +13,7 @@
 ## Technologies
     - Java
     - Spring Boot
+    - Maven
 
 ##  How to run
 
