@@ -7,7 +7,7 @@
 [Docker Compose](https://docs.docker.com/compose/)
 
 ### Architecture
-![Design](arquitetura.png)
+![Design](arch.png)
 
 
 ## Technologies
