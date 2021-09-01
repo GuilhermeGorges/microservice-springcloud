@@ -1,9 +1,36 @@
-# Projeto com arquitetura baseada em microsserviços usando Spring Cloud
+# Microservices using Spring Cloud
 
-## DESCRIÇÃO
+## Requirements
+
+[Docker](https://www.docker.com/) 
+
+[Docker Compose](https://docs.docker.com/compose/)
+
+### Architecture
+![Design](arquitetura.png)
 
 
-Projeto de um catálogo de produtos com arquitetura de software baseada em microsserviços, utilizando as tecnologias:
-- Java. 
-- Maven. 
-- Spring Cloud.
+## Technologies
+    - Java
+    - Spring Boot
+
+##  How to run
+
+  > running Project
+  ```bash
+   
+    # Running the project database service	
+	
+    In the terminal access the directory and run
+    
+    #to start
+    docker-compose up --build -d 
+    
+    # to stop and destroy.
+    docker-compose down 
+
+    # to check the services
+    docker ps 
+
+    after that, run each services normally according to your IDE
+```
